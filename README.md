@@ -1,18 +1,6 @@
-# front_end_template
-A bare-bones template for front-end projects.
+# restaurant_js
+A dynamically-rendered basic layout for a generic restaurant's website.
 
-```sh
-if you wanted to enclose some code,
-```
+The objective of this one was to practice the typical webpack workflow, rendering a separate module for each "tab" in the site's layout, and not hard-coding any content in the HTML.
 
-* Or jump to other [sections](#sections)
-
-## you can have
-# different sized headers
-
-## above your
-# sections.
-
-Throw in a screenshot:
-
-![](/static/bottles.png)
+Part of The Odin Project: https://www.theodinproject.com/lessons/restaurant-page
