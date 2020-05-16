@@ -1,0 +1,5 @@
+const aboutTab = () => {
+  
+};
+
+export { aboutTab }

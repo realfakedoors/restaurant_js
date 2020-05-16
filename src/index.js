@@ -1,1 +1,3 @@
-console.log("hell yeah brother");
+import { aboutTab } from './aboutTab'
+
+aboutTab()
