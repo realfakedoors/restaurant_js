@@ -17,14 +17,17 @@ body {
   background-color: lightgrey;
 }
 
-.title {  
+.title,
+.mini-title {  
   margin: 15px auto;
   
-  font-size: 85px;
   font-family: 'Alfa Slab One', cursive;
   text-align: center;
   color: brown;
 }
+
+.title { font-size: 85px; }
+.mini-title { font-size: 45px; }
 
 .tab-divider {
   height: 8px;
@@ -47,13 +50,22 @@ body {
   
   border: 3px solid brown;
   background-color: lightyellow;
+  cursor: pointer;
 }
 
-.description {
+.description,
+.menu-item {
   width: 480px;
-  margin: 0 auto;
+  margin: 10px auto;
   
   font-size: 20px;
+}
+
+.address-item,
+.events-item {
+  text-align: center;
+  font-size: 26px;
+  line-height: 30px;
 }
 
 #chili-photo {  
